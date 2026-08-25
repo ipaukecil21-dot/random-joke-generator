@@ -1,0 +1,83 @@
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.atom/
+.netbeans/
+
+# PHP
+composer.lock
+vendor/
+.php_cs.cache
+.phpunit.result.cache
+
+# Log Files
+*.log
+logs/
+error_log
+
+# Cache
+.cache/
+cache/
+tmp/
+temp/
+
+# OS Files
+Thumbs.db
+.DS_Store
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.coverage
+
+# Node (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build Files
+dist/
+build/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Session Files
+*.sess
+session/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration
+config.local.php
+.env
+.env.local
+
+# Development
+debug/
+var/
+storage/
+
+# IDE specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS Specific
+.AppleDouble
+.LSOverride
+*.swp
