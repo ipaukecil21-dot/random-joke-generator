@@ -1,83 +1,82 @@
-# IDE and Editor Files
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+.project
+.settings
+.classpath
 *.sublime-project
 *.sublime-workspace
-.atom/
-.netbeans/
 
-# PHP
-composer.lock
-vendor/
-.php_cs.cache
-.phpunit.result.cache
-
-# Log Files
-*.log
-logs/
-error_log
-
-# Cache
-.cache/
-cache/
-tmp/
-temp/
-
-# OS Files
-Thumbs.db
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.*.local
 
-# Testing
-coverage/
-.coverage
-
-# Node (if used)
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Build Files
+# Build outputs
 dist/
 build/
+out/
+*.min.js
+*.min.css
 
-# Backup Files
-*.bak
-*.backup
-*~
+# Testing
+coverage/
+.nyc_output/
+*.coverage
+htmlcov/
 
-# Session Files
-*.sess
-session/
+# Runtime data
+tmp/
+temp/
+cache/
+.cache/
+*.pid
+*.seed
+*.pid.lock
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Configuration
-config.local.php
-.env
-.env.local
-
-# Development
-debug/
-var/
-storage/
-
-# IDE specific
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# OS Specific
+# OS
+Thumbs.db
+.DS_Store
 .AppleDouble
 .LSOverride
-*.swp
+
+# Editors
+*~
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Project specific
+config/local.php
+config/database.yml
+public/uploads/
+storage/
+var/cache/
+var/log/
+
+# Docker
+docker-compose.override.yml
+
+# Development
+.vagrant
+.vagrant/
